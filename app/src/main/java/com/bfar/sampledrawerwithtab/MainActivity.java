@@ -23,6 +23,7 @@ import android.widget.ListView;
 
 import com.bfar.sampledrawerwithtab.fragments.FragmentAbout;
 import com.bfar.sampledrawerwithtab.fragments.FragmentCategories;
+import com.bfar.sampledrawerwithtab.fragments.FragmentHistory;
 import com.bfar.sampledrawerwithtab.fragments.FragmentHome;
 import com.bfar.sampledrawerwithtab.fragments.FragmentSample;
 import com.bfar.sampledrawerwithtab.fragments.FragmentTopPaid;
@@ -100,6 +101,9 @@ public class MainActivity extends ActionBarActivity
             case 2:
                 mTitle = getString(R.string.drawer_about);
                 break;
+            case 3:
+                mTitle = getString(R.string.drawer_history);
+                break;
         }
     }
 
@@ -173,6 +177,9 @@ public class MainActivity extends ActionBarActivity
 
             case 2:
                 fragment = FragmentAbout.newInstance("","");
+                break;
+            case 3:
+                fragment = FragmentHistory.newInstance("", "");
                 break;
             default:
                 break;

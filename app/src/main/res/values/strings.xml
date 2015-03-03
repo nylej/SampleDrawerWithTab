@@ -22,5 +22,6 @@
     <string name="drawer_tab">Tabs</string>
     <string name="drawer_sample">Sample</string>
     <string name="drawer_about">About</string>
+    <string name="drawer_history">History</string>
 
 </resources>
