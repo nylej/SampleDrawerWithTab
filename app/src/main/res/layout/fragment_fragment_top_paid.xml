@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bfar.sampledrawerwithtab.fragments.FragmentTopPaid">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/top_tvtest"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="TOP PAID"
+        android:background="#fff45152"
+        android:gravity="center"/>
+
+
+</FrameLayout>

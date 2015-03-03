@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bfar.sampledrawerwithtab.fragments.FragmentHome">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/home_edTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/home_tvtest"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:background="#fffcd45b"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</FrameLayout>
