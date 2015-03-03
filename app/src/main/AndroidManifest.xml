@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".fragments.FragmentVersion1Sample"
+            android:label="@string/title_activity_fragment_version1_sample" >
+        </activity>
     </application>
 
 </manifest>
